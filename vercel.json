@@ -1,24 +1,9 @@
 {
   "redirects": [
     {
-      "source": "/jobmapper",
-      "destination": "/job-mapper",
-      "permanent": true
-    },
-    {
-      "source": "/jobmapper/:path*",
-      "destination": "/job-mapper/:path*",
-      "permanent": true
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/job-mapper",
-      "destination": "https://job-map-express.vercel.app/job-mapper"
-    },
-    {
-      "source": "/job-mapper/:path*",
-      "destination": "https://job-map-express.vercel.app/job-mapper/:path*"
+      "source": "/",
+      "destination": "/venture-proof",
+      "permanent": false
     }
   ]
 }
